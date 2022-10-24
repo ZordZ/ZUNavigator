@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZUNavigator'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Navigator allows you to make segues, update data by urls. And some other useful stuff.'
 
 # This description is used to generate tags and improve search results.
@@ -31,11 +31,11 @@ Pod::Spec.new do |s|
   All public methods documented and separated to files for fast access. Look at classes root folder.
                        DESC
 
-  s.homepage         = 'https://github.com/MrTrent/ZUNavigator'
+  s.homepage         = 'https://github.com/ZordZ/ZUNavigator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MrTrent' => 'show6time@gmail.com' }
-  s.source           = { :git => 'https://github.com/MrTrent/ZUNavigator.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ZordZ/ZUNavigator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.platform = :ios
   s.module_name = "ZUNavigator"
