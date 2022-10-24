@@ -1,0 +1,23 @@
+PODS:
+  - ZUCore (0.1.2)
+  - ZUNavigator (0.0.2):
+    - ZUCore (~> 0.1.2)
+
+DEPENDENCIES:
+  - ZUNavigator (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ZUCore
+
+EXTERNAL SOURCES:
+  ZUNavigator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZUCore: e78ad708754e1163a9a61e9caff3d74066dd3977
+  ZUNavigator: 08a112a9d76474cdf1e822688a111cc92e122d17
+
+PODFILE CHECKSUM: 4d75402562a1e752ae0b38c6f76d3a248ce680fb
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,1109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BD8C7ED281835B5E9FAEA55F8E92A81 /* Pods-ZUNavigator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1DBAA2A3FD6C14C1BC9CB505E1F1BE /* Pods-ZUNavigator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E35F2DCFC04DF809CBFF2E89D39AC4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1555BA0C0585508E16E12B7F4D2F9C25 /* Pods-ZUNavigator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41875C9211EFE207E5B2346FADF85A /* Pods-ZUNavigator_Example-dummy.m */; };
+		185B26B02DA42FE31CA07CFDE504CF06 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1336CC901B2ACB59668842FEC4F443A7 /* Update.swift */; };
+		43438D5F054CC8F54184E62DC6DCF29C /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02790A505FD5E77FB8C21B9C2CA9BA4 /* NSObject.swift */; };
+		4C99D0D52687FCF35EB20DFBE592CBA4 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258F6E912365812378E45CB61DCF7EF /* URL.swift */; };
+		4CD5BF74F9E9D2C7353FCB84A9590395 /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38D42BCA5826D0ADC6A3F8CD1A001D /* UITabBarController.swift */; };
+		53855BD762BBC80FC1CAC75BE3F3E7D4 /* Navigator_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F328720284A02DEEC6C8F1E97D5B14 /* Navigator_Main.swift */; };
+		545DCDF1AA5A0D4FF97FFA4C8538205B /* Pods-ZUNavigator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A491781BC302FB6A1DA2BC698E559F /* Pods-ZUNavigator_Tests-dummy.m */; };
+		62D9D284C8D4EC036E4BBFDC5F83F066 /* Segues_TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33EE3DA69ADDB8A97808BBB78AE8F8D /* Segues_TabBarController.swift */; };
+		679A980316661BA5A4F2C1D27EB60372 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BA47473CAB874725DB13D2E8AFA3E4 /* Sequence.swift */; };
+		6A9C7B03F3B24B30A53BB4CA27C4EF1A /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B5F67AE38B29F75EAADCE5F33016E /* AppUtils.swift */; };
+		6B8CEA9AE291875208699793A8372ABD /* ZNNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2F2C5DDAE347223C695DF3F28B147 /* ZNNavigationController.swift */; };
+		6BA861EB63A7F40508709F903208351B /* ZUCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D34B1CBFF03F808D63CC33AD0C92A /* ZUCore-dummy.m */; };
+		6CD17B521993A60DAA53F165C6FC903A /* Navigator_Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EFEC18E67FCC62A4455B623778A115 /* Navigator_Registration.swift */; };
+		6ED6F9D0CC5D11F2F51F7C4A7DB1D1D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77A9EACF026B1B9D1A71CCE63CC80F63 /* Navigator_TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720677E9B6DE37FB2C0B0122CA8FF30 /* Navigator_TabBarController.swift */; };
+		78564ABCF27C8465A86BABEC9061D20C /* Navigator_Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC07A865EDDDD53B45D4D569FE6CE8 /* Navigator_Update.swift */; };
+		81067475F3E6B394F26CC96C0CC14507 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C03C455158C467C347E0F1EA5B0159 /* Settings.swift */; };
+		81A5375E6CFE7A9C440A9DE836A243C1 /* ZUCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76990ED79104731D8DCCDBD5708A61C6 /* ZUCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB074CC687F44BA742B25929C820461 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185AC11F09D6178B6E657995D3E22B6 /* Registration.swift */; };
+		97EC4652DDCE491A25B415242DF8F7CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		98321782F4C4A81BD5B3C6F014230F14 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056ECA3C17003D044AE7C25F4DA13CC5 /* UINavigationController.swift */; };
+		996338754CBEDE3EF17F7DB8CDBE6F23 /* Navigator_WeakWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F0BEAE327E1B38A7F6C02E1C71EAD /* Navigator_WeakWrapper.swift */; };
+		9DA1A9340F3A17B38286CBCAC9FE82CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A1379203BF484689A4FED3A81B52B2EF /* Navigator_LinksMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F5907CB4E812B3497CF8DF76A15D0 /* Navigator_LinksMap.swift */; };
+		A149C212C4A7DFDD4DB001A4236AB454 /* ZUNavigator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E786D444B03EC5E3CB9696A76B6325C9 /* ZUNavigator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A3CB9BD18C61E8A11B2FD47ECCDEA3 /* LinksMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B2237E0CB85F7656EABD882AB5F746 /* LinksMap.swift */; };
+		A1D4A6073809B0307C132870AC3DCA68 /* Pods-ZUNavigator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4A7D781E5AF37A5BC1F761318128FC /* Pods-ZUNavigator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A347069DCED5F52E878389EB8157F85E /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E52BE63E1664779083C94131C4836F /* Access.swift */; };
+		AC52B4AABDB6EC83ADF247F80FB473A3 /* ZUNavigator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561BFC6EA7F440756F54B8FCBAC80A7 /* ZUNavigator-dummy.m */; };
+		B215BE6A7EBDD21435C4287F4DF526A3 /* Navigator_Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E6EAD224901A697F99F2BAAFF0328F /* Navigator_Utils.swift */; };
+		B236E64C9D41CFD33D78D4C749398466 /* Bundle_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064FD5EEE1AC1901531B94636248AD70 /* Bundle_Ext.swift */; };
+		BA0D98AE2067E29F8E7D48B53AACB80F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13229F9BBC9A0473AC17444BD447FF6 /* UIViewController.swift */; };
+		C5F829D923D1E35EC758CFA44F2E7F88 /* ZNTargetViewController_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FD7616F3631EF31CF5E11CE93D644 /* ZNTargetViewController_Protocol.swift */; };
+		D12E439748B7475486D1201FADAEE641 /* Segues_NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C4B21AB33681107C1AE6734CACA2B /* Segues_NavigationController.swift */; };
+		DA5AC59C64979243EF7701CFD700D306 /* Navigator_NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA65E7F72B4B241D73826D296C4A5D6 /* Navigator_NavigationController.swift */; };
+		E0DAE2ED3B055C13E44799FB0B5062B3 /* MemoryAddressUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE1108CE0E19AC2CA77B59BB770563 /* MemoryAddressUtils.swift */; };
+		E11E9CEAF7C7393C36F0D691BA771D6E /* ZNTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F833158FDF9575B6752BF44F101E1B4F /* ZNTabBarController.swift */; };
+		E2D8907B81308FB44450D48403377A2D /* ReservedURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE4D320BE1BCD3E65ED6BC1A3F4EC4D /* ReservedURLs.swift */; };
+		FF362AFFE9C106ABC8F09169AB49CE4B /* Application_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB0F39B97642AF023EB2D8FC54051A2 /* Application_Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C1921CA91A34A413601D1312C193577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67768EE2A5E2CF4CCC14CEA2F6667329;
+			remoteInfo = ZUCore;
+		};
+		7272D71113C4C9B5C0A4934FD9E481CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67768EE2A5E2CF4CCC14CEA2F6667329;
+			remoteInfo = ZUCore;
+		};
+		77BD98C4BAACE030410FBFC5F9A6A046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7ADE19A099D26A18E64E68DFDDF8603;
+			remoteInfo = "Pods-ZUNavigator_Example";
+		};
+		E0F5ACCCEAB67348EC35CC648A36D8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8843EEF8068F5C03EEDB4E976D7A3F;
+			remoteInfo = ZUNavigator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015B5F67AE38B29F75EAADCE5F33016E /* AppUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppUtils.swift; path = ZUCore/Classes/AppUtils.swift; sourceTree = "<group>"; };
+		031F5907CB4E812B3497CF8DF76A15D0 /* Navigator_LinksMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Navigator_LinksMap.swift; sourceTree = "<group>"; };
+		056ECA3C17003D044AE7C25F4DA13CC5 /* UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		05DDA320369585B4204938C877D32486 /* Pods-ZUNavigator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZUNavigator_Example"; path = Pods_ZUNavigator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		064FD5EEE1AC1901531B94636248AD70 /* Bundle_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle_Ext.swift; path = ZUCore/Classes/Bundle_Ext.swift; sourceTree = "<group>"; };
+		1258F6E912365812378E45CB61DCF7EF /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		1336CC901B2ACB59668842FEC4F443A7 /* Update.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Update.swift; path = ZUNavigator/Classes/Update.swift; sourceTree = "<group>"; };
+		1E7FD7616F3631EF31CF5E11CE93D644 /* ZNTargetViewController_Protocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZNTargetViewController_Protocol.swift; path = ZUNavigator/Classes/ZNTargetViewController_Protocol.swift; sourceTree = "<group>"; };
+		2F552259782666885F2E00DD5563E1D1 /* Pods-ZUNavigator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZUNavigator_Tests-Info.plist"; sourceTree = "<group>"; };
+		31E6EAD224901A697F99F2BAAFF0328F /* Navigator_Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Navigator_Utils.swift; sourceTree = "<group>"; };
+		3AA65E7F72B4B241D73826D296C4A5D6 /* Navigator_NavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Navigator_NavigationController.swift; sourceTree = "<group>"; };
+		3DB308DA15E0750F312D43A3494F16B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4185AC11F09D6178B6E657995D3E22B6 /* Registration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Registration.swift; path = ZUNavigator/Classes/Registration.swift; sourceTree = "<group>"; };
+		418C4B21AB33681107C1AE6734CACA2B /* Segues_NavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segues_NavigationController.swift; path = ZUNavigator/Classes/Segues_NavigationController.swift; sourceTree = "<group>"; };
+		43E0AEF8EF66E5D7F0911143F013A3EE /* Pods-ZUNavigator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZUNavigator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		445B346F7DF5C1DA9FCE507594833D90 /* ZUCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZUCore-prefix.pch"; sourceTree = "<group>"; };
+		4BAE1108CE0E19AC2CA77B59BB770563 /* MemoryAddressUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryAddressUtils.swift; path = ZUCore/Classes/MemoryAddressUtils.swift; sourceTree = "<group>"; };
+		4D800BF52C7049808146241583AEC7D8 /* Pods-ZUNavigator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZUNavigator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50B2237E0CB85F7656EABD882AB5F746 /* LinksMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinksMap.swift; path = ZUNavigator/Classes/LinksMap.swift; sourceTree = "<group>"; };
+		515522FD5735A76380545049F08F91E7 /* ZUNavigator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZUNavigator.release.xcconfig; sourceTree = "<group>"; };
+		522F0BEAE327E1B38A7F6C02E1C71EAD /* Navigator_WeakWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Navigator_WeakWrapper.swift; sourceTree = "<group>"; };
+		547060193DB631FF33F25DA5756D9BB3 /* ZUNavigator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZUNavigator-prefix.pch"; sourceTree = "<group>"; };
+		5561BFC6EA7F440756F54B8FCBAC80A7 /* ZUNavigator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZUNavigator-dummy.m"; sourceTree = "<group>"; };
+		5BDEA6C803D9CABAD4D23698B9869978 /* Pods-ZUNavigator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZUNavigator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5CC23E488518024CF00382A6B5053386 /* Pods-ZUNavigator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZUNavigator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6294BEFE59A09357D6005D937584FED7 /* Pods-ZUNavigator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZUNavigator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		636ABE32BAD16FEFC9659B1FFCC38A1F /* Pods-ZUNavigator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZUNavigator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64EFEC18E67FCC62A4455B623778A115 /* Navigator_Registration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Navigator_Registration.swift; sourceTree = "<group>"; };
+		65C03C455158C467C347E0F1EA5B0159 /* Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = ZUNavigator/Classes/Settings.swift; sourceTree = "<group>"; };
+		6658ECFE4871CB9C0B04D077C0ED917C /* ZUNavigator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZUNavigator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76990ED79104731D8DCCDBD5708A61C6 /* ZUCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZUCore-umbrella.h"; sourceTree = "<group>"; };
+		7DDC07A865EDDDD53B45D4D569FE6CE8 /* Navigator_Update.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Navigator_Update.swift; sourceTree = "<group>"; };
+		80A2F2C5DDAE347223C695DF3F28B147 /* ZNNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZNNavigationController.swift; path = ZUNavigator/Classes/ZNNavigationController.swift; sourceTree = "<group>"; };
+		86D7B35C8389341C6D562606B0EA7C4E /* ZUNavigator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZUNavigator; path = ZUNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A491781BC302FB6A1DA2BC698E559F /* Pods-ZUNavigator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZUNavigator_Tests-dummy.m"; sourceTree = "<group>"; };
+		8BC0806B8A337BEB7E07AEAF97C2FA61 /* ZUCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZUCore.debug.xcconfig; sourceTree = "<group>"; };
+		8CB02E2A15631FE50160561F01599CED /* ZUCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZUCore.release.xcconfig; sourceTree = "<group>"; };
+		94F4CFE1460CA6EDF1922ACF8E0A1724 /* Pods-ZUNavigator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZUNavigator_Tests.modulemap"; sourceTree = "<group>"; };
+		9CE4D320BE1BCD3E65ED6BC1A3F4EC4D /* ReservedURLs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReservedURLs.swift; path = ZUNavigator/Classes/ReservedURLs.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1DBAA2A3FD6C14C1BC9CB505E1F1BE /* Pods-ZUNavigator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZUNavigator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A02790A505FD5E77FB8C21B9C2CA9BA4 /* NSObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		A4A7A12C0D14F720D1DF5501C5453B33 /* ZUNavigator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZUNavigator.debug.xcconfig; sourceTree = "<group>"; };
+		A636C93C58FEBFBA1D48210C077E5CCC /* Pods-ZUNavigator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZUNavigator_Tests"; path = Pods_ZUNavigator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE82A9C1488C0ACF74FF95003D89AE45 /* Pods-ZUNavigator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZUNavigator_Example-Info.plist"; sourceTree = "<group>"; };
+		B13229F9BBC9A0473AC17444BD447FF6 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B2BA47473CAB874725DB13D2E8AFA3E4 /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		B9E52BE63E1664779083C94131C4836F /* Access.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Access.swift; path = ZUNavigator/Classes/Access.swift; sourceTree = "<group>"; };
+		BCB0F39B97642AF023EB2D8FC54051A2 /* Application_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application_Ext.swift; path = ZUCore/Classes/Application_Ext.swift; sourceTree = "<group>"; };
+		BF38D42BCA5826D0ADC6A3F8CD1A001D /* UITabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
+		CABF6FB7359D7DED33C8BC95FB40A9A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D3279B47B9372128CEAE5D804BF5FF83 /* Pods-ZUNavigator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZUNavigator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D22B9E625AE88F9D9FA5B1D938A28E /* ZUNavigator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZUNavigator.modulemap; sourceTree = "<group>"; };
+		D61D34B1CBFF03F808D63CC33AD0C92A /* ZUCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZUCore-dummy.m"; sourceTree = "<group>"; };
+		D878BB2F2381CC36B55302346DD1D656 /* Pods-ZUNavigator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZUNavigator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DC41875C9211EFE207E5B2346FADF85A /* Pods-ZUNavigator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZUNavigator_Example-dummy.m"; sourceTree = "<group>"; };
+		DE4A7D781E5AF37A5BC1F761318128FC /* Pods-ZUNavigator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZUNavigator_Example-umbrella.h"; sourceTree = "<group>"; };
+		DEDEA09D245EA4E7BE324417CA884350 /* ZUNavigator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZUNavigator-Info.plist"; sourceTree = "<group>"; };
+		E33EE3DA69ADDB8A97808BBB78AE8F8D /* Segues_TabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segues_TabBarController.swift; path = ZUNavigator/Classes/Segues_TabBarController.swift; sourceTree = "<group>"; };
+		E4D35ACA24B79A9C8B507F6D7C0AB69A /* Pods-ZUNavigator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZUNavigator_Example.modulemap"; sourceTree = "<group>"; };
+		E786D444B03EC5E3CB9696A76B6325C9 /* ZUNavigator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZUNavigator-umbrella.h"; sourceTree = "<group>"; };
+		E789837617FF8A0238910F222A264B85 /* ZUCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZUCore.modulemap; sourceTree = "<group>"; };
+		E8CEE6592EB1B4F2390E817675B33BFB /* ZUCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZUCore-Info.plist"; sourceTree = "<group>"; };
+		E8F328720284A02DEEC6C8F1E97D5B14 /* Navigator_Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Navigator_Main.swift; sourceTree = "<group>"; };
+		F149650CF7662E30667221BBB92559F8 /* ZUCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZUCore; path = ZUCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F210A7A4DF8902CCAC9F1DE8B60A6B /* Pods-ZUNavigator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZUNavigator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F720677E9B6DE37FB2C0B0122CA8FF30 /* Navigator_TabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Navigator_TabBarController.swift; sourceTree = "<group>"; };
+		F833158FDF9575B6752BF44F101E1B4F /* ZNTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZNTabBarController.swift; path = ZUNavigator/Classes/ZNTabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C676BFE2ECB7F9C145441C44D2D9CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC4652DDCE491A25B415242DF8F7CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ECE4245A431558CA84743650B2C93E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED6F9D0CC5D11F2F51F7C4A7DB1D1D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39C741DA0874BBEAC67E4C41BDB1182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA1A9340F3A17B38286CBCAC9FE82CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3AA77A0DD97A1A2898D4F4EB49AF38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E35F2DCFC04DF809CBFF2E89D39AC4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015B8A1EFE5A6C43EF7A969B9D97E56F /* Pods-ZUNavigator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94F4CFE1460CA6EDF1922ACF8E0A1724 /* Pods-ZUNavigator_Tests.modulemap */,
+				4D800BF52C7049808146241583AEC7D8 /* Pods-ZUNavigator_Tests-acknowledgements.markdown */,
+				F5F210A7A4DF8902CCAC9F1DE8B60A6B /* Pods-ZUNavigator_Tests-acknowledgements.plist */,
+				88A491781BC302FB6A1DA2BC698E559F /* Pods-ZUNavigator_Tests-dummy.m */,
+				2F552259782666885F2E00DD5563E1D1 /* Pods-ZUNavigator_Tests-Info.plist */,
+				9F1DBAA2A3FD6C14C1BC9CB505E1F1BE /* Pods-ZUNavigator_Tests-umbrella.h */,
+				5CC23E488518024CF00382A6B5053386 /* Pods-ZUNavigator_Tests.debug.xcconfig */,
+				5BDEA6C803D9CABAD4D23698B9869978 /* Pods-ZUNavigator_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZUNavigator_Tests";
+			path = "Target Support Files/Pods-ZUNavigator_Tests";
+			sourceTree = "<group>";
+		};
+		0C9D06A8B27BA6D3E84E125368A638B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCCFE802A8BE0E9FB620C99983343326 /* ZUNavigator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0CDE1B817BAF1DAF8AB6DA98A4B07443 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5D22B9E625AE88F9D9FA5B1D938A28E /* ZUNavigator.modulemap */,
+				5561BFC6EA7F440756F54B8FCBAC80A7 /* ZUNavigator-dummy.m */,
+				DEDEA09D245EA4E7BE324417CA884350 /* ZUNavigator-Info.plist */,
+				547060193DB631FF33F25DA5756D9BB3 /* ZUNavigator-prefix.pch */,
+				E786D444B03EC5E3CB9696A76B6325C9 /* ZUNavigator-umbrella.h */,
+				A4A7A12C0D14F720D1DF5501C5453B33 /* ZUNavigator.debug.xcconfig */,
+				515522FD5735A76380545049F08F91E7 /* ZUNavigator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZUNavigator";
+			sourceTree = "<group>";
+		};
+		2CC2AAC4415F0DEA12AEAAD2274768AF /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				031F5907CB4E812B3497CF8DF76A15D0 /* Navigator_LinksMap.swift */,
+				E8F328720284A02DEEC6C8F1E97D5B14 /* Navigator_Main.swift */,
+				3AA65E7F72B4B241D73826D296C4A5D6 /* Navigator_NavigationController.swift */,
+				64EFEC18E67FCC62A4455B623778A115 /* Navigator_Registration.swift */,
+				F720677E9B6DE37FB2C0B0122CA8FF30 /* Navigator_TabBarController.swift */,
+				7DDC07A865EDDDD53B45D4D569FE6CE8 /* Navigator_Update.swift */,
+				31E6EAD224901A697F99F2BAAFF0328F /* Navigator_Utils.swift */,
+				522F0BEAE327E1B38A7F6C02E1C71EAD /* Navigator_WeakWrapper.swift */,
+			);
+			name = Implementation;
+			path = ZUNavigator/Classes/Implementation;
+			sourceTree = "<group>";
+		};
+		3ACF05E1BFE0C9AD19E831A33BC42383 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A02790A505FD5E77FB8C21B9C2CA9BA4 /* NSObject.swift */,
+				B2BA47473CAB874725DB13D2E8AFA3E4 /* Sequence.swift */,
+				056ECA3C17003D044AE7C25F4DA13CC5 /* UINavigationController.swift */,
+				BF38D42BCA5826D0ADC6A3F8CD1A001D /* UITabBarController.swift */,
+				B13229F9BBC9A0473AC17444BD447FF6 /* UIViewController.swift */,
+				1258F6E912365812378E45CB61DCF7EF /* URL.swift */,
+			);
+			name = Extensions;
+			path = ZUNavigator/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		3C73C6BFC4205DE9B7EDFE8D93A203A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E789837617FF8A0238910F222A264B85 /* ZUCore.modulemap */,
+				D61D34B1CBFF03F808D63CC33AD0C92A /* ZUCore-dummy.m */,
+				E8CEE6592EB1B4F2390E817675B33BFB /* ZUCore-Info.plist */,
+				445B346F7DF5C1DA9FCE507594833D90 /* ZUCore-prefix.pch */,
+				76990ED79104731D8DCCDBD5708A61C6 /* ZUCore-umbrella.h */,
+				8BC0806B8A337BEB7E07AEAF97C2FA61 /* ZUCore.debug.xcconfig */,
+				8CB02E2A15631FE50160561F01599CED /* ZUCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZUCore";
+			sourceTree = "<group>";
+		};
+		42678F04C749551EA4AED2834D4A59D5 /* ZUCore */ = {
+			isa = PBXGroup;
+			children = (
+				BCB0F39B97642AF023EB2D8FC54051A2 /* Application_Ext.swift */,
+				015B5F67AE38B29F75EAADCE5F33016E /* AppUtils.swift */,
+				064FD5EEE1AC1901531B94636248AD70 /* Bundle_Ext.swift */,
+				4BAE1108CE0E19AC2CA77B59BB770563 /* MemoryAddressUtils.swift */,
+				3C73C6BFC4205DE9B7EDFE8D93A203A8 /* Support Files */,
+			);
+			name = ZUCore;
+			path = ZUCore;
+			sourceTree = "<group>";
+		};
+		4B49B9B3F678206DF70BCC98F2AD69A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42678F04C749551EA4AED2834D4A59D5 /* ZUCore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		89A246E2A7A77AA5AE04FE55F61FCEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DDA320369585B4204938C877D32486 /* Pods-ZUNavigator_Example */,
+				A636C93C58FEBFBA1D48210C077E5CCC /* Pods-ZUNavigator_Tests */,
+				F149650CF7662E30667221BBB92559F8 /* ZUCore */,
+				86D7B35C8389341C6D562606B0EA7C4E /* ZUNavigator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F97C2969250AB7096B2DDD7BE9D4CBA /* Pods-ZUNavigator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E4D35ACA24B79A9C8B507F6D7C0AB69A /* Pods-ZUNavigator_Example.modulemap */,
+				636ABE32BAD16FEFC9659B1FFCC38A1F /* Pods-ZUNavigator_Example-acknowledgements.markdown */,
+				43E0AEF8EF66E5D7F0911143F013A3EE /* Pods-ZUNavigator_Example-acknowledgements.plist */,
+				DC41875C9211EFE207E5B2346FADF85A /* Pods-ZUNavigator_Example-dummy.m */,
+				6294BEFE59A09357D6005D937584FED7 /* Pods-ZUNavigator_Example-frameworks.sh */,
+				AE82A9C1488C0ACF74FF95003D89AE45 /* Pods-ZUNavigator_Example-Info.plist */,
+				DE4A7D781E5AF37A5BC1F761318128FC /* Pods-ZUNavigator_Example-umbrella.h */,
+				D3279B47B9372128CEAE5D804BF5FF83 /* Pods-ZUNavigator_Example.debug.xcconfig */,
+				D878BB2F2381CC36B55302346DD1D656 /* Pods-ZUNavigator_Example.release.xcconfig */,
+			);
+			name = "Pods-ZUNavigator_Example";
+			path = "Target Support Files/Pods-ZUNavigator_Example";
+			sourceTree = "<group>";
+		};
+		A77FD95760A172C7BDEBB4FE18BB507A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F97C2969250AB7096B2DDD7BE9D4CBA /* Pods-ZUNavigator_Example */,
+				015B8A1EFE5A6C43EF7A969B9D97E56F /* Pods-ZUNavigator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BBE8F384483CD1CAD3E9500A158F470A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3DB308DA15E0750F312D43A3494F16B3 /* LICENSE */,
+				CABF6FB7359D7DED33C8BC95FB40A9A9 /* README.md */,
+				6658ECFE4871CB9C0B04D077C0ED917C /* ZUNavigator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0C9D06A8B27BA6D3E84E125368A638B1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4B49B9B3F678206DF70BCC98F2AD69A6 /* Pods */,
+				89A246E2A7A77AA5AE04FE55F61FCEDC /* Products */,
+				A77FD95760A172C7BDEBB4FE18BB507A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCCFE802A8BE0E9FB620C99983343326 /* ZUNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				B9E52BE63E1664779083C94131C4836F /* Access.swift */,
+				50B2237E0CB85F7656EABD882AB5F746 /* LinksMap.swift */,
+				4185AC11F09D6178B6E657995D3E22B6 /* Registration.swift */,
+				9CE4D320BE1BCD3E65ED6BC1A3F4EC4D /* ReservedURLs.swift */,
+				418C4B21AB33681107C1AE6734CACA2B /* Segues_NavigationController.swift */,
+				E33EE3DA69ADDB8A97808BBB78AE8F8D /* Segues_TabBarController.swift */,
+				65C03C455158C467C347E0F1EA5B0159 /* Settings.swift */,
+				1336CC901B2ACB59668842FEC4F443A7 /* Update.swift */,
+				80A2F2C5DDAE347223C695DF3F28B147 /* ZNNavigationController.swift */,
+				F833158FDF9575B6752BF44F101E1B4F /* ZNTabBarController.swift */,
+				1E7FD7616F3631EF31CF5E11CE93D644 /* ZNTargetViewController_Protocol.swift */,
+				3ACF05E1BFE0C9AD19E831A33BC42383 /* Extensions */,
+				2CC2AAC4415F0DEA12AEAAD2274768AF /* Implementation */,
+				BBE8F384483CD1CAD3E9500A158F470A /* Pod */,
+				0CDE1B817BAF1DAF8AB6DA98A4B07443 /* Support Files */,
+			);
+			name = ZUNavigator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EAF6502906ECA0796DA256364A03B01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A149C212C4A7DFDD4DB001A4236AB454 /* ZUNavigator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490B59BF4E1E2129274FE6C796925A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D4A6073809B0307C132870AC3DCA68 /* Pods-ZUNavigator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A92CFEBCB4F7479524827571E2B7042 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD8C7ED281835B5E9FAEA55F8E92A81 /* Pods-ZUNavigator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F875C1512248F519DADC66C6BC885376 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A5375E6CFE7A9C440A9DE836A243C1 /* ZUCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67768EE2A5E2CF4CCC14CEA2F6667329 /* ZUCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A20D2E94794CC4D0F67C8429A79B342 /* Build configuration list for PBXNativeTarget "ZUCore" */;
+			buildPhases = (
+				F875C1512248F519DADC66C6BC885376 /* Headers */,
+				046AB38EB114F34EBDFC82D8CB59AE0C /* Sources */,
+				A39C741DA0874BBEAC67E4C41BDB1182 /* Frameworks */,
+				7DD47CC3A08605177A6DD3AE0E11FBA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZUCore;
+			productName = ZUCore;
+			productReference = F149650CF7662E30667221BBB92559F8 /* ZUCore */;
+			productType = "com.apple.product-type.framework";
+		};
+		8565CEB34E23EA1BE66727B5D2A68025 /* Pods-ZUNavigator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BBA519F13F4E6B481378000A9E39C62 /* Build configuration list for PBXNativeTarget "Pods-ZUNavigator_Tests" */;
+			buildPhases = (
+				6A92CFEBCB4F7479524827571E2B7042 /* Headers */,
+				7FE17817DE124BB1716634B1B7C20518 /* Sources */,
+				CC3AA77A0DD97A1A2898D4F4EB49AF38 /* Frameworks */,
+				4DFD7238681CCABACB688D1D62B4EBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE0410FFB8D2B71DEDB8033E38CDC44 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZUNavigator_Tests";
+			productName = Pods_ZUNavigator_Tests;
+			productReference = A636C93C58FEBFBA1D48210C077E5CCC /* Pods-ZUNavigator_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7ADE19A099D26A18E64E68DFDDF8603 /* Pods-ZUNavigator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391647899F6FBD78BB73F3F3C72FC000 /* Build configuration list for PBXNativeTarget "Pods-ZUNavigator_Example" */;
+			buildPhases = (
+				490B59BF4E1E2129274FE6C796925A5E /* Headers */,
+				8D641851A9F02891B324424796ABA1C4 /* Sources */,
+				6C676BFE2ECB7F9C145441C44D2D9CA2 /* Frameworks */,
+				E43363195A0B7046BC9017DC4F3CB17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D95F5AD6078BAD0368FD23248242AE6 /* PBXTargetDependency */,
+				6C805A1D2BF28C89D80222A3D7C938D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZUNavigator_Example";
+			productName = Pods_ZUNavigator_Example;
+			productReference = 05DDA320369585B4204938C877D32486 /* Pods-ZUNavigator_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE8843EEF8068F5C03EEDB4E976D7A3F /* ZUNavigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB20081EBC7FC217597802B49996A559 /* Build configuration list for PBXNativeTarget "ZUNavigator" */;
+			buildPhases = (
+				3EAF6502906ECA0796DA256364A03B01 /* Headers */,
+				199AE9307B5D5C9F4BFFAA9656DB3C3A /* Sources */,
+				7ECE4245A431558CA84743650B2C93E5 /* Frameworks */,
+				EA15180465D409A5464BCB3ACDAF640E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1574E7829DC84DA1F289C9D6DDFFDD4 /* PBXTargetDependency */,
+			);
+			name = ZUNavigator;
+			productName = ZUNavigator;
+			productReference = 86D7B35C8389341C6D562606B0EA7C4E /* ZUNavigator */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 89A246E2A7A77AA5AE04FE55F61FCEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7ADE19A099D26A18E64E68DFDDF8603 /* Pods-ZUNavigator_Example */,
+				8565CEB34E23EA1BE66727B5D2A68025 /* Pods-ZUNavigator_Tests */,
+				67768EE2A5E2CF4CCC14CEA2F6667329 /* ZUCore */,
+				CE8843EEF8068F5C03EEDB4E976D7A3F /* ZUNavigator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFD7238681CCABACB688D1D62B4EBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD47CC3A08605177A6DD3AE0E11FBA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43363195A0B7046BC9017DC4F3CB17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA15180465D409A5464BCB3ACDAF640E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046AB38EB114F34EBDFC82D8CB59AE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF362AFFE9C106ABC8F09169AB49CE4B /* Application_Ext.swift in Sources */,
+				6A9C7B03F3B24B30A53BB4CA27C4EF1A /* AppUtils.swift in Sources */,
+				B236E64C9D41CFD33D78D4C749398466 /* Bundle_Ext.swift in Sources */,
+				E0DAE2ED3B055C13E44799FB0B5062B3 /* MemoryAddressUtils.swift in Sources */,
+				6BA861EB63A7F40508709F903208351B /* ZUCore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199AE9307B5D5C9F4BFFAA9656DB3C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A347069DCED5F52E878389EB8157F85E /* Access.swift in Sources */,
+				A1A3CB9BD18C61E8A11B2FD47ECCDEA3 /* LinksMap.swift in Sources */,
+				A1379203BF484689A4FED3A81B52B2EF /* Navigator_LinksMap.swift in Sources */,
+				53855BD762BBC80FC1CAC75BE3F3E7D4 /* Navigator_Main.swift in Sources */,
+				DA5AC59C64979243EF7701CFD700D306 /* Navigator_NavigationController.swift in Sources */,
+				6CD17B521993A60DAA53F165C6FC903A /* Navigator_Registration.swift in Sources */,
+				77A9EACF026B1B9D1A71CCE63CC80F63 /* Navigator_TabBarController.swift in Sources */,
+				78564ABCF27C8465A86BABEC9061D20C /* Navigator_Update.swift in Sources */,
+				B215BE6A7EBDD21435C4287F4DF526A3 /* Navigator_Utils.swift in Sources */,
+				996338754CBEDE3EF17F7DB8CDBE6F23 /* Navigator_WeakWrapper.swift in Sources */,
+				43438D5F054CC8F54184E62DC6DCF29C /* NSObject.swift in Sources */,
+				8FB074CC687F44BA742B25929C820461 /* Registration.swift in Sources */,
+				E2D8907B81308FB44450D48403377A2D /* ReservedURLs.swift in Sources */,
+				D12E439748B7475486D1201FADAEE641 /* Segues_NavigationController.swift in Sources */,
+				62D9D284C8D4EC036E4BBFDC5F83F066 /* Segues_TabBarController.swift in Sources */,
+				679A980316661BA5A4F2C1D27EB60372 /* Sequence.swift in Sources */,
+				81067475F3E6B394F26CC96C0CC14507 /* Settings.swift in Sources */,
+				98321782F4C4A81BD5B3C6F014230F14 /* UINavigationController.swift in Sources */,
+				4CD5BF74F9E9D2C7353FCB84A9590395 /* UITabBarController.swift in Sources */,
+				BA0D98AE2067E29F8E7D48B53AACB80F /* UIViewController.swift in Sources */,
+				185B26B02DA42FE31CA07CFDE504CF06 /* Update.swift in Sources */,
+				4C99D0D52687FCF35EB20DFBE592CBA4 /* URL.swift in Sources */,
+				6B8CEA9AE291875208699793A8372ABD /* ZNNavigationController.swift in Sources */,
+				E11E9CEAF7C7393C36F0D691BA771D6E /* ZNTabBarController.swift in Sources */,
+				C5F829D923D1E35EC758CFA44F2E7F88 /* ZNTargetViewController_Protocol.swift in Sources */,
+				AC52B4AABDB6EC83ADF247F80FB473A3 /* ZUNavigator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE17817DE124BB1716634B1B7C20518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545DCDF1AA5A0D4FF97FFA4C8538205B /* Pods-ZUNavigator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D641851A9F02891B324424796ABA1C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1555BA0C0585508E16E12B7F4D2F9C25 /* Pods-ZUNavigator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D95F5AD6078BAD0368FD23248242AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZUCore;
+			target = 67768EE2A5E2CF4CCC14CEA2F6667329 /* ZUCore */;
+			targetProxy = 7272D71113C4C9B5C0A4934FD9E481CB /* PBXContainerItemProxy */;
+		};
+		6C805A1D2BF28C89D80222A3D7C938D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZUNavigator;
+			target = CE8843EEF8068F5C03EEDB4E976D7A3F /* ZUNavigator */;
+			targetProxy = E0F5ACCCEAB67348EC35CC648A36D8D3 /* PBXContainerItemProxy */;
+		};
+		B1574E7829DC84DA1F289C9D6DDFFDD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZUCore;
+			target = 67768EE2A5E2CF4CCC14CEA2F6667329 /* ZUCore */;
+			targetProxy = 2C1921CA91A34A413601D1312C193577 /* PBXContainerItemProxy */;
+		};
+		CAE0410FFB8D2B71DEDB8033E38CDC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZUNavigator_Example";
+			target = B7ADE19A099D26A18E64E68DFDDF8603 /* Pods-ZUNavigator_Example */;
+			targetProxy = 77BD98C4BAACE030410FBFC5F9A6A046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08E1E8FEC73A8005D5EE6DF182C7A777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB02E2A15631FE50160561F01599CED /* ZUCore.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZUCore/ZUCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZUCore/ZUCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
+				PRODUCT_MODULE_NAME = ZUCore;
+				PRODUCT_NAME = ZUCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16DC4A0CB071720CB89D5B6AAD8200D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A7A12C0D14F720D1DF5501C5453B33 /* ZUNavigator.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZUNavigator/ZUNavigator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZUNavigator/ZUNavigator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZUNavigator/ZUNavigator.modulemap";
+				PRODUCT_MODULE_NAME = ZUNavigator;
+				PRODUCT_NAME = ZUNavigator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16E245A44F814FA91045A05BE768CE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3279B47B9372128CEAE5D804BF5FF83 /* Pods-ZUNavigator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZUNavigator_Example/Pods-ZUNavigator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZUNavigator_Example/Pods-ZUNavigator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25ED58FDC7854B6BE95249A79FDF606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC0806B8A337BEB7E07AEAF97C2FA61 /* ZUCore.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZUCore/ZUCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZUCore/ZUCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
+				PRODUCT_MODULE_NAME = ZUCore;
+				PRODUCT_NAME = ZUCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B14D449578E77C11A508A42327C67C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDEA6C803D9CABAD4D23698B9869978 /* Pods-ZUNavigator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZUNavigator_Tests/Pods-ZUNavigator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZUNavigator_Tests/Pods-ZUNavigator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F3B4B86640027EFE612D851AD5A9591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D878BB2F2381CC36B55302346DD1D656 /* Pods-ZUNavigator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZUNavigator_Example/Pods-ZUNavigator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZUNavigator_Example/Pods-ZUNavigator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		600C494DE47B003FDAB14AE762538877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC23E488518024CF00382A6B5053386 /* Pods-ZUNavigator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZUNavigator_Tests/Pods-ZUNavigator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZUNavigator_Tests/Pods-ZUNavigator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB134C06A217F141D8076E0C04230129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515522FD5735A76380545049F08F91E7 /* ZUNavigator.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZUNavigator/ZUNavigator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZUNavigator/ZUNavigator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZUNavigator/ZUNavigator.modulemap";
+				PRODUCT_MODULE_NAME = ZUNavigator;
+				PRODUCT_NAME = ZUNavigator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BBA519F13F4E6B481378000A9E39C62 /* Build configuration list for PBXNativeTarget "Pods-ZUNavigator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600C494DE47B003FDAB14AE762538877 /* Debug */,
+				4B14D449578E77C11A508A42327C67C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391647899F6FBD78BB73F3F3C72FC000 /* Build configuration list for PBXNativeTarget "Pods-ZUNavigator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E245A44F814FA91045A05BE768CE86 /* Debug */,
+				4F3B4B86640027EFE612D851AD5A9591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A20D2E94794CC4D0F67C8429A79B342 /* Build configuration list for PBXNativeTarget "ZUCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25ED58FDC7854B6BE95249A79FDF606C /* Debug */,
+				08E1E8FEC73A8005D5EE6DF182C7A777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB20081EBC7FC217597802B49996A559 /* Build configuration list for PBXNativeTarget "ZUNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DC4A0CB071720CB89D5B6AAD8200D8 /* Debug */,
+				BB134C06A217F141D8076E0C04230129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

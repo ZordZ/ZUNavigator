@@ -1,0 +1,6 @@
+framework module ZUNavigator {
+  umbrella header "ZUNavigator-umbrella.h"
+
+  export *
+  module * { export * }
+}

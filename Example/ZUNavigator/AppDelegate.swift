@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  ZUNavigator
+//  Navigator
 //
-//  Created by MrTrent on 10/24/2022.
+//  Created by MrTrent on 09/07/2022.
 //  Copyright (c) 2022 MrTrent. All rights reserved.
 //
 
 import UIKit
+import ZUNavigator
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        RedViewController.register()
+        GreenViewController.register()
+        BlueViewController.register()
+        YellowViewController.register()
+        
         return true
     }
 
