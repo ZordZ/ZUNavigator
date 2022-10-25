@@ -1,6 +1,6 @@
 PODS:
   - ZUCore (0.1.2)
-  - ZUNavigator (0.0.2):
+  - ZUNavigator (0.0.3):
     - ZUCore (~> 0.1.2)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ZUCore: e78ad708754e1163a9a61e9caff3d74066dd3977
-  ZUNavigator: 08a112a9d76474cdf1e822688a111cc92e122d17
+  ZUNavigator: bf4124f81fe7b6f09428b4ae45a7506eb0e2d088
 
 PODFILE CHECKSUM: 4d75402562a1e752ae0b38c6f76d3a248ce680fb
 

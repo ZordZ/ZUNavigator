@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZUNavigator'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Navigator allows you to make segues, update data by urls. And some other useful stuff.'
 
 # This description is used to generate tags and improve search results.

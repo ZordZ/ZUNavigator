@@ -116,7 +116,7 @@
 		76990ED79104731D8DCCDBD5708A61C6 /* ZUCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZUCore-umbrella.h"; sourceTree = "<group>"; };
 		7DDC07A865EDDDD53B45D4D569FE6CE8 /* Navigator_Update.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Navigator_Update.swift; sourceTree = "<group>"; };
 		80A2F2C5DDAE347223C695DF3F28B147 /* ZNNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZNNavigationController.swift; path = ZUNavigator/Classes/ZNNavigationController.swift; sourceTree = "<group>"; };
-		86D7B35C8389341C6D562606B0EA7C4E /* ZUNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZUNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D7B35C8389341C6D562606B0EA7C4E /* ZUNavigator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZUNavigator; path = ZUNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A491781BC302FB6A1DA2BC698E559F /* Pods-ZUNavigator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZUNavigator_Tests-dummy.m"; sourceTree = "<group>"; };
 		8BC0806B8A337BEB7E07AEAF97C2FA61 /* ZUCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZUCore.debug.xcconfig; sourceTree = "<group>"; };
 		8CB02E2A15631FE50160561F01599CED /* ZUCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZUCore.release.xcconfig; sourceTree = "<group>"; };
@@ -307,7 +307,7 @@
 				05DDA320369585B4204938C877D32486 /* Pods-ZUNavigator_Example */,
 				A636C93C58FEBFBA1D48210C077E5CCC /* Pods-ZUNavigator_Tests */,
 				F149650CF7662E30667221BBB92559F8 /* ZUCore */,
-				86D7B35C8389341C6D562606B0EA7C4E /* ZUNavigator.framework */,
+				86D7B35C8389341C6D562606B0EA7C4E /* ZUNavigator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -502,7 +502,7 @@
 			);
 			name = ZUNavigator;
 			productName = ZUNavigator;
-			productReference = 86D7B35C8389341C6D562606B0EA7C4E /* ZUNavigator.framework */;
+			productReference = 86D7B35C8389341C6D562606B0EA7C4E /* ZUNavigator */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -710,7 +710,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.0.3;
 				MODULEMAP_FILE = "Target Support Files/ZUNavigator/ZUNavigator.modulemap";
 				PRODUCT_MODULE_NAME = ZUNavigator;
 				PRODUCT_NAME = ZUNavigator;
@@ -1040,7 +1039,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.0.3;
 				MODULEMAP_FILE = "Target Support Files/ZUNavigator/ZUNavigator.modulemap";
 				PRODUCT_MODULE_NAME = ZUNavigator;
 				PRODUCT_NAME = ZUNavigator;
