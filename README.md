@@ -19,6 +19,20 @@ Navigator allows you to reduce dependencies between controllers without calling 
   - And some other things.
   All public methods documented and separated to files for fast access. Look at classes root folder.
 
+## Requirements
+
+:small_blue_diamond: swift 5 :small_blue_diamond: ios 13.0 :small_blue_diamond:
+
+## Installation
+
+Navigator is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'ZUNavigator'
+```
+
+
 ## Simple integration example.
 
 ```swift
@@ -92,20 +106,7 @@ Global call update(everywhere in app). You must register your UINavigationContro
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 In this example, for red and green controllers made simulation of loading data.
 
-## Requirements
-
-:small_blue_diamond: swift 5 :small_blue_diamond: ios 13.0 :small_blue_diamond:
-
-## Installation
-
-Navigator is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'Navigator'
-```
-
-## Shor description of full features list as listing of public methods and vars:
+## Short description of full features list as listing of public methods and vars:
 
 :small_orange_diamond: Fast access vars.    
 ```swift
