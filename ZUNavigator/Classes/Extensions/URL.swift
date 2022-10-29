@@ -26,13 +26,13 @@ internal extension URL {
         if component == "/" { return "" }
         // int check - WILL BE DEPRECATED SOON
         if let _ = Int(component) {
-            return "/%d"
+            return "/%i"
         }
         // check param separator ':'
         if component.first == Character(":") {
             let dropped = String(component.dropFirst())
             if let _ = Int(dropped) {
-                return "/%d"
+                return "/%i"
             } else {
                 return "/%s"
             }
@@ -42,9 +42,65 @@ internal extension URL {
     }
 }
 
-/// Some usefull things
+
+
+// MARK: - Extracting path parameters
 public extension URL {
-    // MARK: - Appending query
+    /// url path params as array of strings
+    var pathParams: [String] {
+        let components = pathComponents
+        var params: [String] = []
+        for component in components {
+            if component.first == Character(":") {
+                let dropped = String(component.dropFirst())
+                params.append(dropped)
+            }
+        }
+        
+        return params
+    }
+    
+    // For error handling
+    enum PathParamsError: Error {
+        case IndexIsOutOfBounds
+        case WrongTypeSelected
+    }
+    
+    /// Returns path parameter by index.
+    func parameter(index: Int) throws -> String {
+        let params = pathParams
+        if params.count <= index {
+            throw PathParamsError.IndexIsOutOfBounds
+        }
+        return pathParams[index]
+    }
+    
+    /// Returns path parameter by index as specified type.
+    func parameter<T>(index: Int, as type: T.Type) throws -> T {
+        guard let param = try? parameter(index: index) else {
+            throw PathParamsError.IndexIsOutOfBounds
+        }
+        var value: Any = param
+        switch type {
+        case is Int.Type:
+            if let valueInt = Int(param) {
+                value = valueInt
+            }
+            break
+        case is String.Type:
+            // string is default type
+            break
+        default:
+            throw PathParamsError.WrongTypeSelected
+        }
+        return value as! T
+    }
+}
+
+
+
+// MARK: - Appending query
+public extension URL {
     /// Append query item to url
     mutating func appendQueryItem(name: String, value: String?) {
         append(queryItem: URLQueryItem(name: name, value: value))

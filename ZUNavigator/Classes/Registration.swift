@@ -23,7 +23,7 @@ extension Navigator {
      2. Argument url is represented as url string pattern.
      3. Start url pattern from "/".
      4. Simple example: "/testScreen"
-     5. Example with parameter in url path: "/profile/%d".
+     5. Example with parameter in url path: "/profile/%i" or "/profile/%s".
      
      # Example #
      ```
@@ -56,7 +56,7 @@ extension Navigator {
      2. Argument url is represented as url string pattern.
      3. Start url pattern from "/".
      4. Simple example: "/testScreen"
-     5. Example with parameter in url path: "/profile/%d".
+     5. Example with parameter in url path: "/profile/%i" or "/profile/%s".
      
      # Example #
      ```

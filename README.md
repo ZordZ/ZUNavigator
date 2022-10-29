@@ -271,14 +271,27 @@ Here some examples of patterns and urls.
 | ------------- | ------------- |
 |  "/wallet"  |  "/wallet"  |
 |  "page/%i"  |  "page/:12"  |
-|  "page/%i"  |  "page/12" - will be deprecated  |
 |  "/profile/%s"  |  "/profile/:ivan"  |
-|  "/feed/%s/page/%d"  |  "/feed/:ivan/page/:10"  |
-|  "/feed/%s/%d"  |  "/feed/:ivan/:10"  |
+|  "/feed/%s/page/%i"  |  "/feed/:ivan/page/:10"  |
+|  "/feed/%s/%i"  |  "/feed/:ivan/:10"  |
 
 
 
 ## Version description    
+v.0.0.6    
+- Url pattern “/profile/%d” replaced to “/profile/%i”.    
+- For url pattern “/profile/%i” url usage as “/profile/123” is deprecated.    
+- Added some useful stuff.    
+Code example:    
+```swift
+    let url = URL(string: "/profile/:ivan/:10")!
+    let params: [String] = url.pathParams) // all available path arguments(params)
+    let argument = try! url.parameter(index: 0) // argument at index 0. By default it's String.
+    // getting argument at index 0 with setted type. You can handling errors.
+    let argumentStr = try! url.parameter(index: 0, as: String.self) // as String. 
+    let argumentInt = try! url.parameter(index: 0, as: Int.self) // as Int.  
+```
+
 v.0.0.5    
 - Minor update to url patterns.    
 Now, you can use urls with string params at path.    
