@@ -10,6 +10,10 @@ import Foundation
 /// Implement this protocol to full support Navigator.
 public protocol ZNTargetViewController_Protocol: UIViewController {
     
+    // May be we should add hard structing for view controllers?
+//    static var urlPatterns: [String] {get}
+//    static var urlPattern: String {get}
+    
     /// View controller url which should be used in Navigator.
     var url: URL? {set get}
     

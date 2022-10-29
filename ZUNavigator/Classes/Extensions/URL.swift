@@ -14,15 +14,31 @@ internal extension URL {
         var pattern = ""
         if components.count > 0 {
             for component in components {
-                if component == "/" { continue }
-                if let _ = Int(component) {
-                    pattern = pattern + "/%d"
-                } else {
-                    pattern = pattern + "/\(component)"
-                }
+                pattern = pattern + preparePathComponent(component)
             }
         }
         return pattern
+    }
+    
+    /// prepare path component to generate pattern
+    func preparePathComponent(_ component: String) -> String {
+        // first component for url started with '/'
+        if component == "/" { return "" }
+        // int check - WILL BE DEPRECATED SOON
+        if let _ = Int(component) {
+            return "/%d"
+        }
+        // check param separator ':'
+        if component.first == Character(":") {
+            let dropped = String(component.dropFirst())
+            if let _ = Int(dropped) {
+                return "/%d"
+            } else {
+                return "/%s"
+            }
+        }
+        
+        return "/\(component)"
     }
 }
 

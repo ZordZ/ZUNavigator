@@ -123,7 +123,8 @@ class BaseViewController: UIViewController {
         urlPatterns.forEach { urlPattern in
             let title = urlPattern.dropFirstAndUppercasedFirst()
             let color = String(urlPattern.dropFirst()).color
-            let view = SeguesView.init(url: URL(string: urlPattern)!, titleText: title, color: color)
+            //let view = SeguesView.init(url: URL(string: urlPattern)!, titleText: title, color: color)
+            let view = SeguesView.init(urlAsString: urlPattern, titleText: title, color: color)
             self.stackView.addArrangedSubview(view)
         }
     }
