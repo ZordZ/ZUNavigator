@@ -265,6 +265,33 @@ In this example, for red and green controllers made simulation of loading data.
 
 
 
+## Url examples    
+Here some examples of patterns and urls.
+|  Pattern  |  Url examples  |
+| ------------- | ------------- |
+|  "/wallet"  |  "/wallet"  |
+|  "page/%i"  |  "page/:12"  |
+|  "page/%i"  |  "page/12" - will be deprecated  |
+|  "/profile/%s"  |  "/profile/:ivan"  |
+|  "/feed/%s/page/%d"  |  "/feed/:ivan/page/:10"  |
+|  "/feed/%s/%d"  |  "/feed/:ivan/:10"  |
+
+
+
+## Version description    
+v.0.0.5    
+- Minor update to url patterns.    
+Now, you can use urls with string params at path.    
+Pattern: ”/profile/%s”. Url call: “/profile/:ivan”.    
+Also, will be deprecated url calls with double parameters without explicit parameter specification.    
+Explanation:    
+You have url pattern - “/profile/%d”.    
+You can call url as: “/profile/123” or “/profile/:123”.    
+“/test/123” - this option will be deprecated soon.    
+- Example fixes    
+
+
+
 ## Author
 
 MrTrent, show6time@gmail.com
